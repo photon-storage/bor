@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/photon-storage/bor/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/photon-storage/bor/core/types"
 )
 

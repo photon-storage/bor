@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/photon-storage/bor/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/photon-storage/bor/log"
 	"github.com/photon-storage/bor/params/forks"
 )

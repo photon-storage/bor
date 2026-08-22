@@ -3,8 +3,8 @@ package ethclient
 import (
 	"context"
 
+	"github.com/ethereum/go-ethereum/common"
 	ethereum "github.com/photon-storage/bor"
-	"github.com/photon-storage/bor/common"
 	"github.com/photon-storage/bor/core/types"
 )
 

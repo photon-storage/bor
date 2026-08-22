@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/photon-storage/bor/rpc"
 )
 

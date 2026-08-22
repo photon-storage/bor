@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/photon-storage/bor/common"
-	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // Timestamp represents a Unix timestamp that can be unmarshaled from both decimal and hex strings.

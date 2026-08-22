@@ -8,8 +8,8 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/photon-storage/bor/common"
-	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 var _ = (*authorizationMarshaling)(nil)

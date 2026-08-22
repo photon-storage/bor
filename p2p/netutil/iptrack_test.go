@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/photon-storage/bor/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/photon-storage/bor/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestStateSyncHashing_Sensitivity_UsingTxDataCopy(t *testing.T) {
