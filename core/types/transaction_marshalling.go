@@ -23,9 +23,9 @@ import (
 
 	"github.com/holiman/uint256"
 
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/photon-storage/bor/common"
 	"github.com/photon-storage/bor/common/hexutil"
-	"github.com/photon-storage/bor/crypto/kzg4844"
 )
 
 // txJSON is the JSON representation of transactions.

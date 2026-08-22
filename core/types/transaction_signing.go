@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/photon-storage/bor/common"
-	"github.com/photon-storage/bor/crypto"
 	"github.com/photon-storage/bor/params"
 )
 

@@ -5,19 +5,14 @@ go 1.26.5
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
-	github.com/consensys/gnark-crypto v0.19.2
-	github.com/crate-crypto/go-eth-kzg v1.4.0
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/deckarep/golang-set/v2 v2.6.0
-	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0
-	github.com/ethereum/c-kzg-4844/v2 v2.1.5
+	github.com/ethereum/go-ethereum v1.16.7
 	github.com/ethereum/go-verkle v0.2.2
-	github.com/google/gofuzz v1.2.0
 	github.com/gorilla/websocket v1.5.3
 	github.com/holiman/uint256 v1.3.2
 	github.com/influxdata/influxdb-client-go/v2 v2.13.0
 	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
-	github.com/jedisct1/go-minisign v0.0.0-20230811132847-661be99b8267
 	github.com/kylelemons/godebug v1.1.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/stretchr/testify v1.11.1
@@ -26,13 +21,12 @@ require (
 )
 
 require (
-	github.com/ProjectZKM/Ziren/crates/go-runtime/zkvm_runtime v0.0.0-20260104020744-7268a54d0358
+	github.com/ProjectZKM/Ziren/crates/go-runtime/zkvm_runtime v0.0.0-20260104020744-7268a54d0358 // indirect
 	github.com/bits-and-blooms/bitset v1.24.4 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/influxdata/line-protocol v0.0.0-20210922203350-b1ad95c89adf // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.16 // indirect
 	github.com/tklauser/numcpus v0.11.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
@@ -41,7 +35,11 @@ require (
 
 require (
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
+	github.com/consensys/gnark-crypto v0.19.2 // indirect
+	github.com/crate-crypto/go-eth-kzg v1.4.0 // indirect
 	github.com/crate-crypto/go-ipa v0.0.0-20240724233137-53bbb0ceb27a // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+	github.com/ethereum/c-kzg-4844/v2 v2.1.5 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/oapi-codegen/runtime v1.1.0 // indirect
