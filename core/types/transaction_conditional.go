@@ -18,10 +18,6 @@ type Value struct {
 	Storage map[common.Hash]common.Hash
 }
 
-func SingleFromHex(hex string) *Value {
-	return &Value{Single: common.HexToRefHash(hex)}
-}
-
 func FromMap(m map[string]string) *Value {
 	res := map[common.Hash]common.Hash{}
 
