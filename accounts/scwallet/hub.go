@@ -43,10 +43,10 @@ import (
 
 	pcsc "github.com/gballet/go-libpcsclite"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
 )
 
 // Scheme is the URI prefix for smartcard wallets.

@@ -20,10 +20,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/p2p/nat"
 )
 
 const (

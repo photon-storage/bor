@@ -29,18 +29,18 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/prque"
+	"github.com/photon-storage/bor/consensus/misc/eip1559"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/txpool"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 const (

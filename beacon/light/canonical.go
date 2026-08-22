@@ -20,10 +20,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // canonicalStore stores instances of the given type in a database and caches

@@ -21,13 +21,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/triedb"
+	"github.com/photon-storage/bor/triedb/hashdb"
+	"github.com/photon-storage/bor/triedb/pathdb"
 )
 
 func newTestDatabase(diskdb ethdb.Database, scheme string) *triedb.Database {

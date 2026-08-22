@@ -24,11 +24,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/crypto"
 )
 
 var (

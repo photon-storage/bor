@@ -6,17 +6,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
 	"github.com/holiman/uint256"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/blockstm"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/triedb"
 )
 
 // A metamorphic contract — created, destroyed, and conditionally re-created at

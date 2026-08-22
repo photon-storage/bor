@@ -24,9 +24,9 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/ethdb/memorydb"
 )
 
 func copyAccounts(accounts map[common.Hash][]byte) map[common.Hash][]byte {

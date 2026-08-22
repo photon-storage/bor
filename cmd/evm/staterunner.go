@@ -26,11 +26,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/tests"
 )
 
 var (

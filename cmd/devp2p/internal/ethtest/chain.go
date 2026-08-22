@@ -31,16 +31,16 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/forkid"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // Chain is a lightweight blockchain-like store which can read a hivechain

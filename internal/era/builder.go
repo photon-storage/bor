@@ -26,10 +26,10 @@ import (
 
 	"github.com/golang/snappy"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era/e2store"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/internal/era/e2store"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // Builder is used to create Era1 archives of block data.

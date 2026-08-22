@@ -5,7 +5,7 @@ import "go.uber.org/goleak"
 func IgnoreList() []goleak.Option {
 	return []goleak.Option{
 		// a list of goroutne leaks that hard to fix due to external dependencies or too big refactoring needed
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/core.(*txSenderCacher).cache"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*recursiveTree).dispatch"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*recursiveTree).internal"),
 		goleak.IgnoreTopFunction("github.com/rjeczalik/notify.(*nonrecursiveTree).dispatch"),
@@ -16,16 +16,16 @@ func IgnoreList() []goleak.Option {
 		goleak.IgnoreTopFunction("github.com/godbus/dbus.(*Conn).Auth"),
 
 		// todo: this leaks should be fixed
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.nullSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.(*filterBackend).SubscribeNewTxsEvent.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/accounts/abi/bind/backends.(*filterBackend).SubscribePendingLogsEvent.nullSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/consensus/ethash.(*remoteSealer).loop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core.(*BlockChain).updateFutureBlocks"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core/state/snapshot.(*diskLayer).generate"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/core/state.(*subfetcher).loop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/eth/filters.(*EventSystem).eventLoop"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/event.NewSubscription.func1"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/event.NewSubscription"),
-		goleak.IgnoreTopFunction("github.com/ethereum/go-ethereum/metrics.(*meterArbiter).tick"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/accounts/abi/bind/backends.nullSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/accounts/abi/bind/backends.(*filterBackend).SubscribeNewTxsEvent.func1"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/accounts/abi/bind/backends.(*filterBackend).SubscribePendingLogsEvent.nullSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/consensus/ethash.(*remoteSealer).loop"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/core.(*BlockChain).updateFutureBlocks"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/core/state/snapshot.(*diskLayer).generate"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/core/state.(*subfetcher).loop"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/eth/filters.(*EventSystem).eventLoop"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/event.NewSubscription.func1"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/event.NewSubscription"),
+		goleak.IgnoreTopFunction("github.com/photon-storage/bor/metrics.(*meterArbiter).tick"),
 	}
 }

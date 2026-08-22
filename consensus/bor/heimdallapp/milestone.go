@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 
 	milestoneTypes "github.com/0xPolygon/heimdall-v2/x/milestone/types"
 )

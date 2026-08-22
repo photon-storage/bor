@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"iter"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/log"
 )
 
 // historyType represents the category of historical data.

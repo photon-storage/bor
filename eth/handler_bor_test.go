@@ -10,18 +10,18 @@ import (
 
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/downloader/whitelist"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/consensus/ethash"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/eth/downloader"
+	"github.com/photon-storage/bor/eth/downloader/whitelist"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/params"
 )
 
 type mockHeimdall struct {

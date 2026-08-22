@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

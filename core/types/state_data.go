@@ -1,6 +1,6 @@
 package types
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/photon-storage/bor/common"
 
 // StateSyncData represents state received from Ethereum Blockchain
 type StateSyncData struct {

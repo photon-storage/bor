@@ -23,12 +23,12 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/ethash"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 func getBlock(transactions int, uncles int, dataSize int) *types.Block {

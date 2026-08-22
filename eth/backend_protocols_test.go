@@ -19,8 +19,8 @@ package eth
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/photon-storage/bor/eth/ethconfig"
+	"github.com/photon-storage/bor/eth/protocols/snap"
 )
 
 // TestProtocolsSnapServing verifies that the snap/1 protocol is included or

@@ -15,9 +15,9 @@ import (
 
 	types "github.com/0xPolygon/heimdall-v2/x/bor/types"
 	coretypes "github.com/cometbft/cometbft/rpc/core/types"
-	clerk "github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	checkpoint "github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	milestone "github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
+	clerk "github.com/photon-storage/bor/consensus/bor/clerk"
+	checkpoint "github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	milestone "github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/console"
+	"github.com/photon-storage/bor/internal/cli/flagset"
+	"github.com/photon-storage/bor/node"
+	"github.com/photon-storage/bor/rpc"
 
 	"github.com/mitchellh/cli"
 )

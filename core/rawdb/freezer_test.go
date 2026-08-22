@@ -27,9 +27,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/core/rawdb/ancienttest"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/core/rawdb/ancienttest"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/rlp"
 )
 
 var freezerTestTableDef = map[string]freezerTableConfig{"test": {noSnappy: true}}

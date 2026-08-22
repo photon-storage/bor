@@ -5,8 +5,8 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/tracing"
 )
 
 // Coverage for two parallel-vs-serial branches added by the bad-block fix. The

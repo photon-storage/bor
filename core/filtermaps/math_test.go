@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 func TestSingleMatch(t *testing.T) {

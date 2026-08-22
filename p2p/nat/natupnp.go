@@ -30,7 +30,7 @@ import (
 	"github.com/huin/goupnp/dcps/internetgateway1"
 	"github.com/huin/goupnp/dcps/internetgateway2"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 )
 
 const (

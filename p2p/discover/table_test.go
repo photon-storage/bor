@@ -27,13 +27,13 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/internal/testlog"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

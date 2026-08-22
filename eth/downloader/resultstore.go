@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/params"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

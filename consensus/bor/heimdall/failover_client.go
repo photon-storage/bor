@@ -10,10 +10,10 @@ import (
 	"github.com/0xPolygon/heimdall-v2/x/bor/types"
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/log"
 )
 
 const (

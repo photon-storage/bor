@@ -21,12 +21,12 @@ import (
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 var (

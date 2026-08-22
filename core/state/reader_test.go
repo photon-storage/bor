@@ -22,11 +22,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/triedb"
 	"github.com/holiman/uint256"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/triedb"
 )
 
 // TestCacheAttribution_PrefetchToProcess verifies that PREFETCH-origin entries

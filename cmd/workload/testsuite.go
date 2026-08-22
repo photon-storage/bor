@@ -24,12 +24,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/core/history"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/internal/utesting"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rpc"
 )
 
 //go:embed queries

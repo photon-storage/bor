@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/photon-storage/bor/consensus"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/stateless"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/trie"
 )
 
 // witnessRegenRoundTrip replays a block through the production V2 processor

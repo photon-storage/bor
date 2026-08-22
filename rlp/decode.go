@@ -30,7 +30,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/photon-storage/bor/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

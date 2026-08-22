@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rlp"
 )
 
 func TestEraDatabase(t *testing.T) {

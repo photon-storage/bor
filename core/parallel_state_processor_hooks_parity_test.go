@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/photon-storage/bor/core/tracing"
 )
 
 // This file pins the contract that every tracing.Hooks field is

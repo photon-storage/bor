@@ -24,7 +24,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // evictHeap is a helper data structure to keep track of the cheapest bottleneck

@@ -19,7 +19,7 @@ package bintrie
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestHashedNodeHash tests the Hash method

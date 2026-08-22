@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestStemNodeInsertSameStem tests inserting values with the same stem

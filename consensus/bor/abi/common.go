@@ -4,8 +4,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/common/hexutil"
 )
 
 // SystemTxGas is gas limit for system txs/calls (which happen within consensus)

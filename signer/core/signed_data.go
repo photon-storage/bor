@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/consensus/clique"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/rlp"
+	"github.com/photon-storage/bor/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature

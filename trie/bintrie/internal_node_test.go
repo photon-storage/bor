@@ -21,7 +21,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestInternalNodeGet tests the Get method

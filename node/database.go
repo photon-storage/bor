@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/ethdb/leveldb"
+	"github.com/photon-storage/bor/ethdb/pebble"
+	"github.com/photon-storage/bor/log"
 )
 
 // DatabaseOptions contains the options to apply when opening a database.

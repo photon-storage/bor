@@ -23,8 +23,8 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/vm"
 )
 
 func TestPush(t *testing.T) {

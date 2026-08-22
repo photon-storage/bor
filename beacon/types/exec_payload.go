@@ -25,9 +25,9 @@ import (
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
 	"github.com/protolambda/zrnt/eth2/beacon/deneb"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/trie"
 )
 
 type payloadType interface {

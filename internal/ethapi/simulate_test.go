@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/internal/ethapi/override"
+	"github.com/photon-storage/bor/params"
 )
 
 func TestSimulateSanitizeBlockOrder(t *testing.T) {

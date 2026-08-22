@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/misc"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/params"
 )
 
 const (

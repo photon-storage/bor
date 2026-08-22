@@ -26,11 +26,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/triedb/database"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/trie/trienode"
+	"github.com/photon-storage/bor/triedb/database"
 )
 
 // Trie represents a Merkle Patricia Trie. Use New to create a trie that operates

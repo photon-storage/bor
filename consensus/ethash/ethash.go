@@ -20,10 +20,10 @@ package ethash
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/consensus"
+	"github.com/photon-storage/bor/core/stateless"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

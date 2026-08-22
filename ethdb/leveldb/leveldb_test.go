@@ -22,8 +22,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/dbtest"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/ethdb/dbtest"
 )
 
 func TestLevelDB(t *testing.T) {

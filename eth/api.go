@@ -19,8 +19,8 @@ package eth
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.

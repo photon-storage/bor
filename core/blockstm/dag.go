@@ -9,8 +9,8 @@ import (
 
 	"github.com/heimdalr/dag"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 var (

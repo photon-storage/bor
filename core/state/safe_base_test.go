@@ -6,11 +6,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/triedb"
 )
 
 // newTestSafeBase builds an empty StateDB, pre-populates a single account

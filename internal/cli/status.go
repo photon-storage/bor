@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
+	"github.com/photon-storage/bor/internal/cli/flagset"
+	"github.com/photon-storage/bor/internal/cli/server/proto"
 )
 
 // StatusCommand is the command to output the status of the client

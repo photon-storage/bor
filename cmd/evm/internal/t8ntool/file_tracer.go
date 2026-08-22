@@ -24,11 +24,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/log"
 )
 
 // fileWritingTracer wraps either a tracer or a logger. On tx start,

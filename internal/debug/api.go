@@ -37,8 +37,8 @@ import (
 
 	bexpr "github.com/hashicorp/go-bexpr"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/log"
 )
 
 // Handler is the global debugging handler.

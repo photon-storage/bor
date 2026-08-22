@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ethabi "github.com/ethereum/go-ethereum/accounts/abi"
+	ethabi "github.com/photon-storage/bor/accounts/abi"
 )
 
 func TestValidatorSet_ExposesCommitSpan(t *testing.T) {

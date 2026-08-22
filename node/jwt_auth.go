@@ -23,7 +23,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // NewJWTAuth creates an rpc client authentication provider that uses JWT. The

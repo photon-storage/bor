@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/forkid"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 
 	"github.com/urfave/cli/v2"
 )

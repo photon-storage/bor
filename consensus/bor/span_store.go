@@ -9,11 +9,11 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/span"
+	"github.com/photon-storage/bor/consensus/bor/valset"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rpc"
 
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"
 

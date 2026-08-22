@@ -20,14 +20,14 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/params"
 	"github.com/stretchr/testify/require"
 )
 

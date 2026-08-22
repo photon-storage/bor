@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/photon-storage/bor/accounts/abi"
 )
 
 // underlyingBindType returns a string representation of the Go type

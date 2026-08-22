@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/forkid"
+	"github.com/photon-storage/bor/metrics"
+	"github.com/photon-storage/bor/p2p"
 )
 
 const (

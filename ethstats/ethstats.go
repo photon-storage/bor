@@ -32,18 +32,18 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	ethproto "github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/consensus"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/types"
+	ethproto "github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/node"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/rpc"
 )
 
 const (

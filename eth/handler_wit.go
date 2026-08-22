@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/eth/protocols/wit"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/stateless"
+	"github.com/photon-storage/bor/eth/protocols/wit"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/enode"
 )
 
 const (

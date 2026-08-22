@@ -6,8 +6,8 @@ package tracers
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
 )
 
 // parityFrameCtx carries the per-transaction/block identifiers and configuration

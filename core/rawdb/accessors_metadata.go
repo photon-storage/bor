@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

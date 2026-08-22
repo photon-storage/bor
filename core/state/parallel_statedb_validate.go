@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/blockstm"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/blockstm"
 )
 
 // valuesEqual compares MVStore reads/writes. New value types MUST add

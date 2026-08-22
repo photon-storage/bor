@@ -30,11 +30,11 @@ import (
 
 	"github.com/ethereum/go-verkle"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 var (

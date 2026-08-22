@@ -3,7 +3,7 @@ package cli
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/params"
 
 	"github.com/mitchellh/cli"
 )

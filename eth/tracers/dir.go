@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/params"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

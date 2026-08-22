@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
+	"github.com/photon-storage/bor/rlp"
 	"golang.org/x/time/rate"
 )
 

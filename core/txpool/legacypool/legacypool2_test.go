@@ -25,12 +25,12 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/event"
 )
 
 func pricedValuedTransaction(nonce uint64, value int64, gaslimit uint64, gasprice *big.Int, key *ecdsa.PrivateKey) *types.Transaction {

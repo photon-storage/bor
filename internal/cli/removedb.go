@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/internal/cli/flagset"
+	"github.com/photon-storage/bor/internal/cli/server"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/node"
 
 	"github.com/mitchellh/cli"
 )

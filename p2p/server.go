@@ -31,15 +31,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/discover"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/p2p/netutil"
 )
 
 const (

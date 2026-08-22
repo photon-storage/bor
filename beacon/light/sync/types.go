@@ -17,9 +17,9 @@
 package sync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/beacon/light/request"
+	"github.com/photon-storage/bor/beacon/types"
+	"github.com/photon-storage/bor/common"
 )
 
 var (

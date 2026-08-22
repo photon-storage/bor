@@ -22,8 +22,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/params"
 )
 
 var (

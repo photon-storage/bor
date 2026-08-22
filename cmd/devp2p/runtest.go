@@ -21,10 +21,10 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/cmd/devp2p/internal/v4test"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/internal/utesting"
+	"github.com/photon-storage/bor/log"
 )
 
 var (

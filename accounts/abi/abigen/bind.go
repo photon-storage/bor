@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/log"
 )
 
 var (

@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/internal/era"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rlp"
 )
 
 const openFileLimit = 64

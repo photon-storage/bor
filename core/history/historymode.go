@@ -19,8 +19,8 @@ package history
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/params"
 )
 
 // HistoryMode configures history pruning.

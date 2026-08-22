@@ -12,15 +12,15 @@ import (
 
 	grpc_net_conn "github.com/JekaMas/go-grpc-net-conn"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/cli/server/pprof"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/eth/tracers/logger"
+	"github.com/photon-storage/bor/internal/cli/server/pprof"
+	"github.com/photon-storage/bor/internal/cli/server/proto"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // chunkSize must stay below server.go:maxGRPCMessageSize so ChunkedEncoder

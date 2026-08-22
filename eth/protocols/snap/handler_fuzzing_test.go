@@ -26,15 +26,15 @@ import (
 
 	fuzz "github.com/google/gofuzz"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/ethash"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 func FuzzARange(f *testing.F) {

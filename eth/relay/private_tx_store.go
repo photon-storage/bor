@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 const (

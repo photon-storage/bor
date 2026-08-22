@@ -26,18 +26,18 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/accounts/abi/bind/v2"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/internal/ethapi"
+	"github.com/photon-storage/bor/internal/ethapi/override"
+	"github.com/photon-storage/bor/rlp"
+	"github.com/photon-storage/bor/rpc"
 )
 
 func mockSign(addr common.Address, tx *types.Transaction) (*types.Transaction, error) { return tx, nil }

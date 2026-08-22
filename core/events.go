@@ -19,8 +19,8 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/core/stateless"
+	"github.com/photon-storage/bor/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

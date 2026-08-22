@@ -23,11 +23,11 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/trie/trienode"
 )
 
 // buffer is a collection of modified states along with the modified trie nodes.

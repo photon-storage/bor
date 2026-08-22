@@ -25,11 +25,11 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/photon-storage/bor/internal/ethapi"
+	"github.com/photon-storage/bor/internal/jsre/deps"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/signer/core"
+	"github.com/photon-storage/bor/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

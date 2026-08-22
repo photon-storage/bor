@@ -30,7 +30,7 @@ import (
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/gorilla/websocket"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 )
 
 const (

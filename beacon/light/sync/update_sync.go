@@ -19,12 +19,12 @@ package sync
 import (
 	"sort"
 
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/beacon/light"
+	"github.com/photon-storage/bor/beacon/light/request"
+	"github.com/photon-storage/bor/beacon/params"
+	"github.com/photon-storage/bor/beacon/types"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/log"
 )
 
 const maxUpdateRequest = 8 // maximum number of updates requested in a single request

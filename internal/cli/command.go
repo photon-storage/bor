@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/internal/cli/flagset"
+	"github.com/photon-storage/bor/internal/cli/server"
+	"github.com/photon-storage/bor/internal/cli/server/proto"
+	"github.com/photon-storage/bor/node"
 
 	"github.com/mitchellh/cli"
 	"github.com/ryanuber/columnize"

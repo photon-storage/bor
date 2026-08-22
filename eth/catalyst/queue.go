@@ -19,10 +19,10 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/photon-storage/bor/beacon/engine"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

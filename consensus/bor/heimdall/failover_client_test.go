@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
 )
 
 // mockHeimdallClient is a configurable mock implementing the Endpoint interface.

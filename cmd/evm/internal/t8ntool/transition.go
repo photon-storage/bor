@@ -27,18 +27,18 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/consensus/misc/eip1559"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/eth/tracers/logger"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/tests"
 )
 
 const (

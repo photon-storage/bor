@@ -19,8 +19,8 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
 )
 
 const (

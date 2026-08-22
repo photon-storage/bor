@@ -3,9 +3,9 @@ package bor
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/milestone"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/milestone"
 
 	"github.com/0xPolygon/heimdall-v2/x/bor/types"
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"

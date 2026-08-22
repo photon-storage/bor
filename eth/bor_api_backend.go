@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rpc"
 )
 
 const tipConfirmationOffset uint64 = 16

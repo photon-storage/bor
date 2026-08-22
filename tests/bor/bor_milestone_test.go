@@ -13,14 +13,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/photon-storage/bor/common/fdlimit"
+	"github.com/photon-storage/bor/core"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/node"
+	"github.com/photon-storage/bor/p2p/enode"
 )
 
 var (

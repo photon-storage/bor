@@ -3,7 +3,7 @@ package wit
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 )
 
 // handleGetWitness processes a GetWitnessPacket request from a peer.

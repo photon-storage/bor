@@ -25,9 +25,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/internal/testrand"
+	"github.com/photon-storage/bor/rlp"
 )
 
 func equalBALs(a *BlockAccessList, b *BlockAccessList) bool {

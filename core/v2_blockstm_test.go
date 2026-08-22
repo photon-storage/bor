@@ -9,19 +9,19 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/accounts/abi/bind"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/core/blockstm"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/triedb"
 )
 
 // TestV2BalanceValidation verifies that speculative balance reads are caught

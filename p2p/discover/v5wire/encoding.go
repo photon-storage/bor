@@ -29,10 +29,10 @@ import (
 	"hash"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // TODO concurrent WHOAREYOU tie-breaker

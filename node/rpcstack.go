@@ -33,8 +33,8 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

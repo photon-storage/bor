@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
+	"github.com/photon-storage/bor"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/event"
 )
 
 const basefeeWiggleMultiplier = 2

@@ -30,9 +30,9 @@ import (
 
 	mapset "github.com/deckarep/golang-set/v2"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

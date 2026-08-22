@@ -27,7 +27,7 @@ import (
 
 	stunV3 "github.com/pion/stun/v3"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 )
 
 //go:embed stun-list.txt

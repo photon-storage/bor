@@ -15,13 +15,13 @@ import (
 
 	types "github.com/0xPolygon/heimdall-v2/x/bor/types"
 	types0 "github.com/0xPolygon/heimdall-v2/x/stake/types"
-	common "github.com/ethereum/go-ethereum/common"
-	valset "github.com/ethereum/go-ethereum/consensus/bor/valset"
-	core "github.com/ethereum/go-ethereum/core"
-	state "github.com/ethereum/go-ethereum/core/state"
-	types1 "github.com/ethereum/go-ethereum/core/types"
-	vm "github.com/ethereum/go-ethereum/core/vm"
-	rpc "github.com/ethereum/go-ethereum/rpc"
+	common "github.com/photon-storage/bor/common"
+	valset "github.com/photon-storage/bor/consensus/bor/valset"
+	core "github.com/photon-storage/bor/core"
+	state "github.com/photon-storage/bor/core/state"
+	types1 "github.com/photon-storage/bor/core/types"
+	vm "github.com/photon-storage/bor/core/vm"
+	rpc "github.com/photon-storage/bor/rpc"
 	gomock "go.uber.org/mock/gomock"
 )
 

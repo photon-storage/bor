@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/ethdb/memorydb"
+	"github.com/photon-storage/bor/p2p"
 )
 
 // newTestNode creates a Node with a temporary DataDir for database tests.

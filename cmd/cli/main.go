@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/internal/cli"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/internal/cli"
+	"github.com/photon-storage/bor/params"
 )
 
 func main() {

@@ -27,21 +27,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/program"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/core/vm/program"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/eth/tracers/logger"
+	"github.com/photon-storage/bor/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
+	_ "github.com/photon-storage/bor/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

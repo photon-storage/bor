@@ -3,8 +3,8 @@ package blockstm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestFlushMVWriteSetWritesBalance verifies that FlushMVWriteSet writes

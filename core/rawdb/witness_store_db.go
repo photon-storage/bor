@@ -1,8 +1,8 @@
 package rawdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/ethdb"
 )
 
 // dbWitnessStore implements WitnessStore by delegating to the existing

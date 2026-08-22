@@ -24,9 +24,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v5test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/photon-storage/bor/cmd/devp2p/internal/v5test"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/p2p/discover"
 )
 
 var (

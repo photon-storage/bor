@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
-	"github.com/ethereum/go-ethereum/internal/cli/server/proto"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/internal/cli/flagset"
+	"github.com/photon-storage/bor/internal/cli/server/proto"
 )
 
 // ChainWatchCommand is the command to group the peers commands

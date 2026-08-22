@@ -24,8 +24,8 @@ import (
 	"github.com/ethereum/go-verkle"
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/metrics"
 )
 
 const (

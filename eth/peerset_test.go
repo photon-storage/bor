@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
 )
 
 func TestPeerSetForgetTransactions(t *testing.T) {

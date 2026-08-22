@@ -27,10 +27,10 @@ import (
 	"github.com/ethereum/go-verkle"
 	cli "github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/log"
 )
 
 var (

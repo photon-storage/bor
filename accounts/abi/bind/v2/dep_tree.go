@@ -22,8 +22,8 @@ import (
 	"maps"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
 )
 
 // DeploymentParams contains parameters needed to deploy one or more contracts via LinkAndDeploy

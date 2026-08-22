@@ -27,10 +27,10 @@ import (
 	"github.com/VictoriaMetrics/fastcache"
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

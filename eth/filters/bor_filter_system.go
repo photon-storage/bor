@@ -3,9 +3,9 @@ package filters
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rpc"
 )
 
 func (es *EventSystem) handleStateSyncEvent(filters filterIndex, ev core.StateSyncEvent) {

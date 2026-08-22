@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/downloader/whitelist"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/consensus/ethash"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/eth/downloader"
+	"github.com/photon-storage/bor/eth/downloader/whitelist"
+	"github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/eth/protocols/snap"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/params"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

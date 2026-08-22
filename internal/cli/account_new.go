@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
+	"github.com/photon-storage/bor/internal/cli/flagset"
 )
 
 type AccountNewCommand struct {

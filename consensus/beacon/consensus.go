@@ -24,18 +24,18 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus"
+	"github.com/photon-storage/bor/consensus/misc/eip1559"
+	"github.com/photon-storage/bor/consensus/misc/eip4844"
+	"github.com/photon-storage/bor/core/state"
+	"github.com/photon-storage/bor/core/stateless"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/core/vm"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rpc"
+	"github.com/photon-storage/bor/trie"
 )
 
 // Proof-of-stake protocol constants.

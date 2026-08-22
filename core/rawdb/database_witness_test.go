@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/photon-storage/bor/ethdb/memorydb"
 )
 
 // TestOpen_DBWitnessStoreDefault verifies that Open initializes a DB-backed

@@ -22,7 +22,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 func TestTransaction(t *testing.T) {

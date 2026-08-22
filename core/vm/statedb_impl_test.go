@@ -1,7 +1,7 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/photon-storage/bor/core/state"
 )
 
 // Compile-time assertions that the two in-tree StateDB implementations

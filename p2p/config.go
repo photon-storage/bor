@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/nat"
+	"github.com/photon-storage/bor/p2p/netutil"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Config -field-override configMarshaling -formats toml -out config_toml.go

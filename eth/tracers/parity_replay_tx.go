@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/internal/ethapi"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // ReplayTransaction implements the trace_replayTransaction RPC method. It

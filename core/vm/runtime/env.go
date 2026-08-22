@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -11,7 +11,7 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/pelletier/go-toml"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 
 	"github.com/0xPolygon/heimdall-v2/app"
 	heimdalld "github.com/0xPolygon/heimdall-v2/cmd/heimdalld/cmd"

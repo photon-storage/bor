@@ -23,12 +23,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/cmd/devp2p/internal/ethtest"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/rlpx"
+	"github.com/photon-storage/bor/rlp"
 )
 
 var (

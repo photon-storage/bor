@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
+	"github.com/photon-storage/bor/p2p"
 )
 
 const (

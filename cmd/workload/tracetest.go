@@ -25,11 +25,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth/tracers"
+	"github.com/photon-storage/bor/internal/utesting"
+	"github.com/photon-storage/bor/log"
 )
 
 // traceTest is the content of a history test.

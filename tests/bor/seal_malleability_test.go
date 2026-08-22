@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/require"
 	gomock "go.uber.org/mock/gomock"
 
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	borSpan "github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common/fdlimit"
+	"github.com/photon-storage/bor/consensus/bor"
+	"github.com/photon-storage/bor/consensus/bor/clerk"
+	borSpan "github.com/photon-storage/bor/consensus/bor/heimdall/span"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/log"
 )
 
 // malleateSealedBlock returns a sibling of b whose seal is re-encoded via the

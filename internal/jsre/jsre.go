@@ -29,7 +29,7 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // JSRE is a JS runtime environment embedding the goja interpreter.

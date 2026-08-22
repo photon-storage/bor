@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/photon-storage/bor/common/math"
+	"github.com/photon-storage/bor/params"
 )
 
 // Ensure imports are used.

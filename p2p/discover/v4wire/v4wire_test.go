@@ -25,8 +25,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // EIP-8 test vectors.

@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/params"
 )
 
 // TenToTheFive - To be used while sorting bor logs

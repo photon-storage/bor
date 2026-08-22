@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
 )
 
 // Tests that the account management snippets work correctly.

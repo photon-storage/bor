@@ -30,7 +30,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/photon-storage/bor/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

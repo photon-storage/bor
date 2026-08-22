@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/ethdb/pebble"
 )
 
 // benchHash returns a deterministic hash for benchmarking.

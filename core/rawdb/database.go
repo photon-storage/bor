@@ -35,11 +35,11 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/ethdb/memorydb"
+	"github.com/photon-storage/bor/log"
 )
 
 var ErrDeleteRangeInterrupted = errors.New("safe delete range operation interrupted")

@@ -19,7 +19,7 @@ package vm
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // JumpDestCache represents the cache of jumpdest analysis results.

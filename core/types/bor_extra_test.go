@@ -24,8 +24,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // wrapExtra wraps an RLP-encoded BlockExtraData/BlockExtraDataPostAustin body in

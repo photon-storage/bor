@@ -28,9 +28,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/rpc"
 )
 
 const (

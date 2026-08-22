@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -33,8 +33,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // Keys in the node database.

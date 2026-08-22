@@ -6,8 +6,8 @@ package tracers
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/params"
 )
 
 // parityCallTracerName is the registered tracer backing the Parity trace

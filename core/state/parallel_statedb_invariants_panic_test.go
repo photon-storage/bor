@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/triedb"
 )
 
 // TestInvariant_SettleNotPanicked verifies the runtime assertion under

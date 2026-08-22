@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/network"
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall/checkpoint"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/network"
+	"github.com/photon-storage/bor/consensus/bor/heimdall/checkpoint"
 
 	"github.com/stretchr/testify/require"
 )

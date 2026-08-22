@@ -24,10 +24,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rpc"
 	"github.com/urfave/cli/v2"
 )
 

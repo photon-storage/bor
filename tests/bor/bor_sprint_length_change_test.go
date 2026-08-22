@@ -15,19 +15,19 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/common/fdlimit"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth"
+	"github.com/photon-storage/bor/eth/downloader"
+	"github.com/photon-storage/bor/eth/ethconfig"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/miner"
+	"github.com/photon-storage/bor/node"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/params"
 )
 
 var (

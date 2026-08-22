@@ -16,7 +16,7 @@
 ################################################################################
 
 # This sets the -coverpgk for the coverage report when the corpus is executed through go test
-coverpkg="github.com/ethereum/go-ethereum/..."
+coverpkg="github.com/photon-storage/bor/..."
 
 function coverbuild {
   path=$1

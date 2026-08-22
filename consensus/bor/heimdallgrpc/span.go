@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/consensus/bor/heimdall"
+	"github.com/photon-storage/bor/log"
 
 	"github.com/0xPolygon/heimdall-v2/x/bor/types"
 )

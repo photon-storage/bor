@@ -5,7 +5,7 @@ package types
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/rlp"
 )
 
 func (obj *Withdrawal) EncodeRLP(_w io.Writer) error {

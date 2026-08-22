@@ -23,8 +23,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/cmd/utils"
 )
 
 var newPassphraseFlag = &cli.StringFlag{

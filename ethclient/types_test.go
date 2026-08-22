@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor"
+	"github.com/photon-storage/bor/common"
 )
 
 func TestToFilterArg(t *testing.T) {

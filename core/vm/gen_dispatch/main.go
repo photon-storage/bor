@@ -543,8 +543,8 @@ func (e *emitter) emitHeader() {
 	e.p("import (\n")
 	e.p("\t\"fmt\"\n")
 	e.p("\t\"sync/atomic\"\n\n")
-	e.p("\t\"github.com/ethereum/go-ethereum/common/math\"\n")
-	e.p("\t\"github.com/ethereum/go-ethereum/params\"\n")
+	e.p("\t\"github.com/photon-storage/bor/common/math\"\n")
+	e.p("\t\"github.com/photon-storage/bor/params\"\n")
 	e.p("\t\"github.com/holiman/uint256\"\n")
 	e.p(")\n\n")
 	// Silence unused import warnings

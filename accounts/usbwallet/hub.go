@@ -25,9 +25,9 @@ import (
 
 	"github.com/karalabe/hid"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

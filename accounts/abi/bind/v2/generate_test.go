@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/abigen"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/photon-storage/bor/accounts/abi/abigen"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/common/compiler"
+	"github.com/photon-storage/bor/crypto"
 )
 
 // Run go generate to recreate the test bindings.

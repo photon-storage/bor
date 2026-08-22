@@ -32,9 +32,9 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/internal/testlog"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/rpc"
 )
 
 const testMethod = "rpc_modules"

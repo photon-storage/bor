@@ -19,9 +19,9 @@ package stateless
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common/hexutil"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // BorWitness is the canonical 3-field RLP encoding used for network

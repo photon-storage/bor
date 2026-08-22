@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/console/prompt"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/eth"
+	"github.com/photon-storage/bor/eth/ethconfig"
+	"github.com/photon-storage/bor/internal/jsre"
+	"github.com/photon-storage/bor/miner"
+	"github.com/photon-storage/bor/node"
 )
 
 const (

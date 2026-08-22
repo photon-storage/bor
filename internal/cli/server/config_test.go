@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/eth/ethconfig"
+	"github.com/photon-storage/bor/params"
 )
 
 func TestConfigDefault(t *testing.T) {

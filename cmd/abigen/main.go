@@ -26,12 +26,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/abigen"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts/abi/abigen"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/common/compiler"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/log"
 )
 
 var (

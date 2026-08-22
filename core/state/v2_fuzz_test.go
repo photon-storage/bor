@@ -6,7 +6,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // FuzzV2Differential feeds randomly-generated op sequences through both the

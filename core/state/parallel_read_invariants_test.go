@@ -6,9 +6,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/blockstm"
+	"github.com/photon-storage/bor/crypto"
 )
 
 // This file pins the two structural invariants that keep V2 reads safe

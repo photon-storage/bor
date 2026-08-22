@@ -30,12 +30,12 @@ import (
 	"golang.org/x/sync/singleflight"
 	"golang.org/x/time/rate"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/common/mclock"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/p2p/enode"
+	"github.com/photon-storage/bor/p2p/enr"
 )
 
 // Client discovers nodes by querying DNS servers.

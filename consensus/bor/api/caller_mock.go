@@ -10,12 +10,12 @@ import (
 
 	gomock "go.uber.org/mock/gomock"
 
-	common "github.com/ethereum/go-ethereum/common"
-	hexutil "github.com/ethereum/go-ethereum/common/hexutil"
-	state "github.com/ethereum/go-ethereum/core/state"
-	ethapi "github.com/ethereum/go-ethereum/internal/ethapi"
-	override "github.com/ethereum/go-ethereum/internal/ethapi/override"
-	rpc "github.com/ethereum/go-ethereum/rpc"
+	common "github.com/photon-storage/bor/common"
+	hexutil "github.com/photon-storage/bor/common/hexutil"
+	state "github.com/photon-storage/bor/core/state"
+	ethapi "github.com/photon-storage/bor/internal/ethapi"
+	override "github.com/photon-storage/bor/internal/ethapi/override"
+	rpc "github.com/photon-storage/bor/rpc"
 )
 
 // MockCaller is a mock of Caller interface.

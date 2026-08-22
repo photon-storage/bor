@@ -1,8 +1,8 @@
 package span
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor/valset"
 
 	stakeTypes "github.com/0xPolygon/heimdall-v2/x/stake/types"
 )

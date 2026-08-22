@@ -5,7 +5,7 @@ import (
 
 	borTypes "github.com/0xPolygon/heimdall-v2/x/bor/types"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/log"
 )
 
 func (h *HeimdallAppClient) GetSpan(_ context.Context, _ uint64) (*borTypes.Span, error) {

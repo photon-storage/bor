@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // stubPrecompile returns a fixed output and charges gasCost.

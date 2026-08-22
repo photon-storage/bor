@@ -12,7 +12,7 @@ package filters
 import (
 	reflect "reflect"
 
-	ethdb "github.com/ethereum/go-ethereum/ethdb"
+	ethdb "github.com/photon-storage/bor/ethdb"
 	gomock "go.uber.org/mock/gomock"
 )
 

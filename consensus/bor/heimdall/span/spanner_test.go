@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	gomock "go.uber.org/mock/gomock"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor/abi"
-	"github.com/ethereum/go-ethereum/consensus/bor/api"
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor/abi"
+	"github.com/photon-storage/bor/consensus/bor/api"
+	"github.com/photon-storage/bor/consensus/bor/valset"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/rpc"
 )
 
 func TestGetCurrentValidatorsByBlockNrOrHash(t *testing.T) {

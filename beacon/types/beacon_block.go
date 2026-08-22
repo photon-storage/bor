@@ -26,8 +26,8 @@ import (
 	"github.com/protolambda/ztyp/codec"
 	"github.com/protolambda/ztyp/tree"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
 
 	// beacon forks
 	"github.com/protolambda/zrnt/eth2/beacon/capella"

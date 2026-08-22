@@ -23,8 +23,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/ethdb"
 )
 
 // parseIndex parses the index data with the supplied byte stream. The index data

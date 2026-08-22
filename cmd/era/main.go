@@ -29,13 +29,13 @@ import (
 
 	cli "github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/internal/era"
+	"github.com/photon-storage/bor/internal/ethapi"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/params"
+	"github.com/photon-storage/bor/trie"
 )
 
 var app = flags.NewApp("go-ethereum era tool")

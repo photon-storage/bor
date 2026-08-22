@@ -4,15 +4,15 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/valset"
+	"github.com/photon-storage/bor/consensus/bor/valset"
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	borSpan "github.com/ethereum/go-ethereum/consensus/bor/heimdall/span"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/common"
+	borSpan "github.com/photon-storage/bor/consensus/bor/heimdall/span"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/params"
 )
 
 // Snapshot is the state of the authorization voting at a given point in time.

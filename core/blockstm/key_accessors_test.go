@@ -3,7 +3,7 @@ package blockstm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestKeyAccessors round-trips Key constructors through the getters and

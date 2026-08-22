@@ -30,7 +30,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/metrics"
 )
 
 // TestFreezerBasics test initializing a freezertable from scratch, writing to the table,

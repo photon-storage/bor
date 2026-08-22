@@ -5,9 +5,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/blockstm"
+	"github.com/photon-storage/bor/core/tracing"
 )
 
 // Invariant tests for the ParallelStateDB ↔ MVStore/MVBalanceStore contract.

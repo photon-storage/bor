@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // ReplayBlockTransactions implements the Parity/OpenEthereum

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/params"
 )
 
 func TestDirectoryConcurrentRegisterAndLookup(t *testing.T) {

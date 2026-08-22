@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/p2p/enr"
+	"github.com/photon-storage/bor/rlp"
 )
 
 var (

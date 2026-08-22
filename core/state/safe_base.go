@@ -7,7 +7,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // SafeBase provides thread-safe access to StateDB base reads with a

@@ -22,11 +22,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/prque"
+	"github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 // queueItemTimer returns the per-item download duration timer for the given queue type.

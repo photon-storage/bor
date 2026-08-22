@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/cli"
+	"github.com/photon-storage/bor/internal/cli"
 )
 
 const (

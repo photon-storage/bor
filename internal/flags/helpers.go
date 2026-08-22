@@ -26,8 +26,8 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/internal/version"
+	"github.com/photon-storage/bor/log"
 )
 
 // usecolor defines whether the CLI help should use colored output or normal dumb

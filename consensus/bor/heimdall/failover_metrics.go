@@ -1,6 +1,6 @@
 package heimdall
 
-import "github.com/ethereum/go-ethereum/metrics"
+import "github.com/photon-storage/bor/metrics"
 
 var (
 	// HTTP/gRPC failover metrics (used within this package)

@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/rpc"
 )
 
 // This test uses the admin_startRPC and admin_startWS APIs,

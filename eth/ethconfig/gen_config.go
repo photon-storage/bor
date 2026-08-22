@@ -6,15 +6,15 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/bor"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/txpool/blobpool"
-	"github.com/ethereum/go-ethereum/core/txpool/legacypool"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/consensus/bor"
+	"github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/history"
+	"github.com/photon-storage/bor/core/txpool/blobpool"
+	"github.com/photon-storage/bor/core/txpool/legacypool"
+	"github.com/photon-storage/bor/eth/downloader"
+	"github.com/photon-storage/bor/eth/gasprice"
+	"github.com/photon-storage/bor/miner"
 )
 
 // MarshalTOML marshals as TOML.

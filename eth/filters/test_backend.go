@@ -3,16 +3,16 @@ package filters
 import (
 	context "context"
 
-	common "github.com/ethereum/go-ethereum/common"
-	core "github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	types "github.com/ethereum/go-ethereum/core/types"
-	ethdb "github.com/ethereum/go-ethereum/ethdb"
-	event "github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	rpc "github.com/ethereum/go-ethereum/rpc"
+	common "github.com/photon-storage/bor/common"
+	core "github.com/photon-storage/bor/core"
+	"github.com/photon-storage/bor/core/filtermaps"
+	"github.com/photon-storage/bor/core/rawdb"
+	"github.com/photon-storage/bor/core/state"
+	types "github.com/photon-storage/bor/core/types"
+	ethdb "github.com/photon-storage/bor/ethdb"
+	event "github.com/photon-storage/bor/event"
+	"github.com/photon-storage/bor/params"
+	rpc "github.com/photon-storage/bor/rpc"
 )
 
 // nolint : unused

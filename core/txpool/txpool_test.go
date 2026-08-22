@@ -3,7 +3,7 @@ package txpool
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/photon-storage/bor/core"
 )
 
 // TestSubscribeRebroadcastTransactionsNilPool tests that calling

@@ -21,8 +21,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/photon-storage/bor/eth/ethconfig"
+	"github.com/photon-storage/bor/internal/flags"
 )
 
 var ShowDeprecated = &cli.Command{

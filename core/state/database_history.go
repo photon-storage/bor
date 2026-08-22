@@ -19,15 +19,15 @@ package state
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/lru"
+	"github.com/photon-storage/bor/core/state/snapshot"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/ethdb"
+	"github.com/photon-storage/bor/rlp"
+	"github.com/photon-storage/bor/trie/utils"
+	"github.com/photon-storage/bor/triedb"
+	"github.com/photon-storage/bor/triedb/pathdb"
 )
 
 // historicReader wraps a historical state reader defined in path database,

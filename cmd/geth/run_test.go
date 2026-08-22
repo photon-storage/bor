@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/internal/cmdtest"
+	"github.com/photon-storage/bor/internal/reexec"
+	"github.com/photon-storage/bor/rpc"
 )
 
 type testgeth struct {

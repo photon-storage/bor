@@ -11,8 +11,8 @@ import (
 
 	toml "github.com/pelletier/go-toml"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/cli/server"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/internal/cli/server"
 )
 
 // YesFV: Both, Flags and their values has changed

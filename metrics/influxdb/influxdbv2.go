@@ -7,8 +7,8 @@ import (
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 type v2Reporter struct {

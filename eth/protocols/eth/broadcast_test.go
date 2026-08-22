@@ -19,7 +19,7 @@ package eth
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 // TestTxAnnQueueDiscard verifies that when the announcement queue overflows its

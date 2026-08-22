@@ -26,13 +26,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/eth/protocols/wit"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/eth/protocols/eth"
+	"github.com/photon-storage/bor/eth/protocols/snap"
+	"github.com/photon-storage/bor/eth/protocols/wit"
+	"github.com/photon-storage/bor/p2p"
+	"github.com/photon-storage/bor/p2p/rlpx"
+	"github.com/photon-storage/bor/rlp"
 )
 
 var (

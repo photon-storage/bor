@@ -13,12 +13,12 @@ import (
 	big "math/big"
 	reflect "reflect"
 
-	common "github.com/ethereum/go-ethereum/common"
-	clerk "github.com/ethereum/go-ethereum/consensus/bor/clerk"
-	statefull "github.com/ethereum/go-ethereum/consensus/bor/statefull"
-	state "github.com/ethereum/go-ethereum/core/state"
-	types "github.com/ethereum/go-ethereum/core/types"
-	vm "github.com/ethereum/go-ethereum/core/vm"
+	common "github.com/photon-storage/bor/common"
+	clerk "github.com/photon-storage/bor/consensus/bor/clerk"
+	statefull "github.com/photon-storage/bor/consensus/bor/statefull"
+	state "github.com/photon-storage/bor/core/state"
+	types "github.com/photon-storage/bor/core/types"
+	vm "github.com/photon-storage/bor/core/vm"
 	gomock "go.uber.org/mock/gomock"
 )
 

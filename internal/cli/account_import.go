@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/cli/flagset"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/internal/cli/flagset"
 )
 
 type AccountImportCommand struct {

@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/photon-storage/bor/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

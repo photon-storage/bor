@@ -21,7 +21,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/photon-storage/bor/core/types"
 )
 
 const (

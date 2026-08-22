@@ -6,7 +6,7 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc/bn254"
 
-	"github.com/ethereum/go-ethereum/common/bitutil"
+	"github.com/photon-storage/bor/common/bitutil"
 )
 
 // G1 is the affine representation of a G1 group element.

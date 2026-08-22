@@ -22,7 +22,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/photon-storage/bor/internal/flags"
 )
 
 const (

@@ -16,8 +16,8 @@ import (
 
 	grpcRetry "github.com/grpc-ecosystem/go-grpc-middleware/retry"
 
-	"github.com/ethereum/go-ethereum/consensus/bor/heimdall"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/consensus/bor/heimdall"
+	"github.com/photon-storage/bor/log"
 
 	borTypes "github.com/0xPolygon/heimdall-v2/x/bor/types"
 	checkpointTypes "github.com/0xPolygon/heimdall-v2/x/checkpoint/types"

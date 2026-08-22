@@ -24,13 +24,13 @@ import (
 
 	cli "github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/photon-storage/bor/beacon/blsync"
+	"github.com/photon-storage/bor/cmd/utils"
+	"github.com/photon-storage/bor/internal/debug"
+	"github.com/photon-storage/bor/internal/flags"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/node"
+	"github.com/photon-storage/bor/rpc"
 )
 
 func main() {

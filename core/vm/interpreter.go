@@ -24,10 +24,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/common/math"
+	"github.com/photon-storage/bor/core/tracing"
+	"github.com/photon-storage/bor/metrics"
 
 	"github.com/holiman/uint256"
 )

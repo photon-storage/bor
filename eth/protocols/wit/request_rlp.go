@@ -3,8 +3,8 @@ package wit
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/rlp"
 )
 
 // DecodeRLP decodes a GetWitness packet without relying on promoted methods

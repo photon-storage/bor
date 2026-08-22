@@ -27,11 +27,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/console/prompt"
+	"github.com/photon-storage/bor/p2p/dnsdisc"
+	"github.com/photon-storage/bor/p2p/enode"
 )
 
 var (

@@ -3,7 +3,7 @@ package blockstm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/photon-storage/bor/common"
 )
 
 func mvKey(addr byte) Key { return NewAddressKey(common.Address{addr}) }

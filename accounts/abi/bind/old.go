@@ -27,16 +27,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/abigen"
-	bind2 "github.com/ethereum/go-ethereum/accounts/abi/bind/v2"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/photon-storage/bor/accounts"
+	"github.com/photon-storage/bor/accounts/abi"
+	"github.com/photon-storage/bor/accounts/abi/abigen"
+	bind2 "github.com/photon-storage/bor/accounts/abi/bind/v2"
+	"github.com/photon-storage/bor/accounts/external"
+	"github.com/photon-storage/bor/accounts/keystore"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/types"
+	"github.com/photon-storage/bor/crypto"
+	"github.com/photon-storage/bor/log"
 )
 
 // Bind generates a v1 contract binding.

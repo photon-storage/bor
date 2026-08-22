@@ -7,8 +7,8 @@ import (
 
 	client "github.com/influxdata/influxdb1-client/v2"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/log"
+	"github.com/photon-storage/bor/metrics"
 )
 
 type reporter struct {

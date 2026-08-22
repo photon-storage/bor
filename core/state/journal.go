@@ -24,9 +24,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/blockstm"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/blockstm"
+	"github.com/photon-storage/bor/crypto"
 )
 
 type revision struct {

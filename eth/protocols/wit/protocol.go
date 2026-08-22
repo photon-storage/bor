@@ -3,8 +3,8 @@ package wit
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/stateless"
+	"github.com/photon-storage/bor/common"
+	"github.com/photon-storage/bor/core/stateless"
 )
 
 // Constants to match up protocol versions and messages

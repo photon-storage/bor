@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/photon-storage/bor/metrics"
 )
 
 // SafePool caps concurrent execution of submitted functions: a non-zero size uses

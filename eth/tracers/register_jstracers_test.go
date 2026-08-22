@@ -10,4 +10,4 @@ package tracers_test
 // Go's build system treats the `_js` suffix as a GOOS=js (WebAssembly) build
 // tag, which would silently exclude the file from regular builds and leave
 // the JS evaluator unregistered.
-import _ "github.com/ethereum/go-ethereum/eth/tracers/js"
+import _ "github.com/photon-storage/bor/eth/tracers/js"

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/photon-storage/bor/params"
 )
 
 // This file pins the contract that every params.ChainConfig.IsX fork

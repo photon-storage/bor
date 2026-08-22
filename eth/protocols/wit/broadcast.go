@@ -1,6 +1,6 @@
 package wit
 
-import "github.com/ethereum/go-ethereum/log"
+import "github.com/photon-storage/bor/log"
 
 // broadcastWitness is a write loop that multiplexes witness and witness announcements
 // to the remote peer. The goal is to have an async writer that does not lock up
